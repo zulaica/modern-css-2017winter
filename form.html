@@ -6,10 +6,21 @@
   </head>
   <body>
     <form>
-      <label for='email'>Enter your e-mail</label>
-      <input type='email' name='email' placeholder='e.g. asdf@asdf.com'>
-      <label for='password'>Choose a password</label>
-      <input type='password' name='password' placeholder='Choose wisely.'>
+      <fieldset>
+        <legend>Account info</legend>
+        <label for='email'>Enter your e-mail</label>
+        <input type='email' name='email' placeholder='e.g. asdf@asdf.com'>
+        <label for='password'>Choose a password</label>
+        <input type='password' name='password' placeholder='Choose wisely.'>
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal info</legend>
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" placeholder="Your Name">
+        <label for="phone">Enter your phone number</label>
+        <input type="tel" name="tel" placeholder="999-999-9999">
+      </fieldset>
 
       <button type='reset' name='reset'>Reset the form</button>
       <button type='submit' name='submit'>Submit</button>
