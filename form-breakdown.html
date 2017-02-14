@@ -69,7 +69,7 @@
           <td>&lt;!DOCTYPE html&gt;</td>
           <td>
             <ul>
-              <li>HTML5 Doctype</li>
+              <li>Enforce HTML5 rendering while ensuring backward compatibility</li>
             </ul>
           </td>
         </tr>
@@ -88,8 +88,8 @@
           <td>    &lt;meta charset=&apos;utf-8&apos; /&gt;</td>
           <td>
             <ul>
-              <li>Set a default charset to ensure consistent rendering.</li>
-              <li>Add (optional) slash to self-closing tags to express intent.</li>
+              <li>Set a default <code>charset</code> to ensure consistent rendering</li>
+              <li>Add (optional) slash to self-closing tags to express intent</li>
             </ul>
           </td>
         </tr>
@@ -116,22 +116,43 @@
         <tr>
           <td>9</td>
           <td>      &lt;fieldset&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use semantic <code>fieldset</code> for logical grouping of collectors</li>
+              <li><code>fieldset</code> is not mandatory; only use when necessary</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>10</td>
           <td>        &lt;legend&gt;Account Info&lt;/legend&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use <code>legend</code> to accurately describe <code>fieldset</code>s</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>11</td>
           <td>        &lt;label for=&apos;email&apos;&gt;Enter your e-mail&lt;/label&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li><code>label</code>s provide accessible descriptions for each <code>input</code></li>
+              <li>Use the <code>for</code> attribute to pair the <code>label</code> with the <code>input</code></li>
+              <li>Prefer descriptive instrucions over single-word <code>label</code>s</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>12</td>
           <td>        &lt;input type=&apos;email&apos; name=&apos;email&apos; placeholder=&apos;e.g. asdf@asdf.com&apos; /&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use available <code>type</code> attributes to assist on-screen keyboard input</li>
+              <li>Use the <code>name</code> attribute to pair the <code>label</code> with the <code>input</code></li>
+              <li><code>placeholder</code>s are not accessible; use placeholders to provide context</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>13</td>
@@ -276,22 +297,39 @@
         <tr>
           <td>41</td>
           <td>        &lt;label for=&apos;country&apos;&gt;Country&lt;/label&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use the <code>for</code> attribute to pair the <code>label</code> with the <code>select</code></li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>42</td>
           <td>        &lt;select name=&apos;country&apos;&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use the <code>name</code> attribute to pair the <code>label</code> with the <code>select</code></li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>43</td>
           <td>          &lt;optgroup label=&apos;Europe&apos;&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use semantic <code>optgroup</code> for logical grouping of <code>option</code>s</li>
+              <li><code>optgroup</code> is not mandatory; only use when necessary</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>44</td>
           <td>            &lt;option value=&apos;UK&apos;&gt;UK&lt;/option&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li><abbr title='Nota Bene'>n.b.</abbr> Empty <code>value</code> attributes will not return a value when the form is submitted</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>45</td>
@@ -346,12 +384,22 @@
         <tr>
           <td>55</td>
           <td>      &lt;button type=&apos;reset&apos;&gt;Reset the form&lt;/button&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>Use <code>button</code> elements as opposed to <code>input type='button'</code></li>
+              <li>Use available <code>type</code> attributes to improve usability</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>56</td>
           <td>      &lt;button type=&apos;submit&apos;&gt;Submit&lt;/button&gt;</td>
-          <td></td>
+          <td>
+            <ul>
+              <li>The default <code>type</code> of a <code>button</code> is <code>submit</code>, but it should always be explicitly set to express intent</li>
+              <li>Other <code>button</code>s used without an built-in <code>type</code> should be set to <code>type='button'</code> to prevent triggering the default behavior accidentally</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>57</td>
