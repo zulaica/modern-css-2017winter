@@ -26,6 +26,32 @@
         <input type='tel' name='tel' placeholder='e.g (999) 999-9999' />
       </fieldset>
 
+      <fieldset>
+        <legend>Mailing Address</legend>
+        <label for='address-line1'>Address (Line 1)</label>
+        <input type='text' name='address-line1' placeholder='e.g. Street Address, Company Name, C/O' />
+        <label for='address-line2'>Address (Line 2)</label>
+        <input type='text' name='address-line2' placeholder='e.g. Apartment, Suite, Unit, etc.' />
+        <label for='city'>City</label>
+        <input type='text' name='city' />
+        <label for='state'>State/Province/Region</label>
+        <input type='text' name='state' />
+        <label for='zip-code'>Zip/Postal Code</label>
+        <input type='text' name='zip-code' />
+        <label for='country'>Country</label>
+        <select name='country'>
+          <optgroup label='Europe'>
+            <option value='UK'>UK</option>
+            <option value='Germany'>Germany</option>
+            <option value='France'>France</option>
+          </optgroup>
+          <optgroup label='North America'>
+            <option value='USA'>USA</option>
+            <option value='Canada'>Canada</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
       <button type='reset'>Reset the form</button>
       <button type='submit'>Submit</button>
     </form>
