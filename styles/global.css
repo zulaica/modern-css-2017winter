@@ -9,6 +9,7 @@ html, body {
 html {
   background: #ccc;
   text-align: center;
+  height: 100%;
 }
 
 body {
@@ -17,4 +18,9 @@ body {
   /* margin: top right bottom left */
   /* margin: top/bottom left/right; */
   margin: 0 auto;
+  height: 100%;
+}
+
+[role='banner'] h1 {
+  margin: 0;
 }
