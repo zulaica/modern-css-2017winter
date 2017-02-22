@@ -56,3 +56,21 @@ fieldset {
 fieldset:last-of-type {
   margin-bottom: 1rem;
 }
+
+button {
+  background: #ddc;
+  border: 1px solid #99a;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: .5rem .75rem;
+}
+
+[type='submit'] {
+  background: #cdd;
+  border-color: black;
+}
+
+[type='reset'] {
+  background: red;
+  border-color: black;
+}
