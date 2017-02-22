@@ -31,19 +31,24 @@
         <input type='tel' name='tel' placeholder='e.g (999) 999-9999' />
 
         <label>
-          <input type='radio' name='gender' value='Prefer not to say' checked />
+          <input
+            type='radio'
+            name='gender'
+            value='Prefer not to say'
+            checked
+            aria-selected='true' />
           Prefer not to say
         </label>
         <label>
-          <input type='radio' name='gender' value='Male'>
+          <input type='radio' name='gender' value='Male' aria-selected='false' />
           Male
         </label>
         <label>
-          <input type='radio' name='gender' value='Female' />
+          <input type='radio' name='gender' value='Female' aria-selected='false' />
           Female
         </label>
         <label>
-          <input type='radio' name='gender' value='Other' />
+          <input type='radio' name='gender' value='Other' aria-selected='false' />
           Other (Please Specify)
         </label>
       </fieldset>
