@@ -49,5 +49,10 @@ body {
 }
 
 fieldset {
-  margin: 2rem;
+  border: 0;
+  margin-bottom: 3rem;
+}
+
+fieldset:last-of-type {
+  margin-bottom: 1rem;
 }
