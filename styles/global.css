@@ -19,6 +19,8 @@ body {
   margin: 0 auto;
   height: 100vh;
   font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 [role='banner']::before {
@@ -35,6 +37,7 @@ body {
 [role='banner'] h1,
 [role='banner'] h2 {
   margin: 0;
+  line-height: 1.2;
 }
 
 [role='banner'] h1 {
@@ -43,4 +46,8 @@ body {
 
 [role='banner'] h2 {
   font-size: 5vh;
+}
+
+fieldset {
+  margin: 2rem;
 }
