@@ -20,7 +20,26 @@ body {
   height: 100vh;
 }
 
+[role='banner']::before {
+  content: '';
+  height: 15vh;
+  width: 100vw;
+  display: block;
+  position: absolute;
+  background: #9cc;
+  z-index: -1;
+  left: 0;
+}
+
 [role='banner'] h1,
 [role='banner'] h2 {
   margin: 0;
+}
+
+[role='banner'] h1 {
+  font-size: 7vh;
+}
+
+[role='banner'] h2 {
+  font-size: 5vh;
 }
