@@ -29,7 +29,7 @@ body {
   width: 100vw;
   display: block;
   position: absolute;
-  background: #9cc;
+  background: #5bc0de;
   z-index: -1;
   left: 0;
 }
@@ -58,19 +58,21 @@ fieldset:last-of-type {
 }
 
 button {
-  background: #ddc;
-  border: 1px solid #99a;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 1rem;
   padding: .5rem .75rem;
 }
 
 [type='submit'] {
-  background: #cdd;
-  border-color: black;
+  background: #5cb85c;
+  color: #fff;
+  border-color: #419641;
 }
 
 [type='reset'] {
-  background: red;
-  border-color: black;
+  background: #d9534f;
+  color: #fff;
+  border-color: #c12e2a;
 }
