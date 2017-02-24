@@ -72,6 +72,11 @@ legend::before {
   z-index: -1;
 }
 
+label,
+label + input {
+  display: block;
+}
+
 button {
   background: #f2f2f2;
   border: 1px solid #ccc;
