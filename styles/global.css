@@ -48,6 +48,9 @@ body {
 }
 
 nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
 }
@@ -57,8 +60,9 @@ nav li {
 }
 
 nav a {
-  padding: .5rem;
+  padding: .5rem 1rem;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 fieldset {
