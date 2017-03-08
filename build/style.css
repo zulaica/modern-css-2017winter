@@ -47,34 +47,18 @@ body {
   font-size: 5vh;
 }
 
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 nav ul {
   list-style: none;
   padding: 0;
 }
 
 nav li {
-  display: inline-block;
   border-bottom: 2px solid blue;
-  margin-left: .25rem;
-}
-
-nav li:first-of-type {
-  margin: 0;
 }
 
 nav a {
   padding: .5rem;
   text-decoration: none;
-}
-
-nav a:hover {
-  background: #ddd;
 }
 
 fieldset {

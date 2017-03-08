@@ -53,22 +53,12 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
   border-bottom: 2px solid blue;
-  margin-left: .25rem;
-}
-
-nav li:first-of-type {
-  margin: 0;
 }
 
 nav a {
   padding: .5rem;
   text-decoration: none;
-}
-
-nav a:hover {
-  background: #ddd;
 }
 
 fieldset {
