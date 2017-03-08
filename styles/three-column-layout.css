@@ -36,12 +36,15 @@ p {
 }
 
 main {
+}
+
+dl {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-dl {
+div {
   margin: 1rem 2.5rem;
 }
 
