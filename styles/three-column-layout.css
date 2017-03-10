@@ -60,7 +60,7 @@ dd {
   text-transform: uppercase;
 }
 
-dd:nth-of-type(3) {
+.price {
   font-size: 1.5rem;
   margin: 2rem 0;
 }
