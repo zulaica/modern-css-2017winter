@@ -41,12 +41,17 @@ ul {
   margin: 2rem auto;
 }
 
+li {
+  width: 45%;
+}
+
 ul a {
   display: block;
   padding: .5rem 1rem;
   background: #337ab7;
   color: #fff;
   text-decoration: none;
+  text-align: center;
 }
 
 label,
