@@ -25,6 +25,7 @@ body {
 main {
   background: #fff;
   padding: 2rem;
+  border: 1px solid #333;
 }
 
 h1  {
@@ -34,14 +35,14 @@ h1  {
 }
 
 dl {
-  padding: 0;
   display: flex;
-  justify-content: space-around;
-  margin: 2rem auto;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 
 dd {
-  width: 45%;
+  margin-left: 0;
+  width: 48%;
 }
 
 dd a {
@@ -72,6 +73,8 @@ input {
   font-size: 1rem;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  line-height: 1.5;
+  width: 100%;
 }
 
 button {
@@ -81,4 +84,5 @@ button {
   background: #5cb85c;
   color: #fff;
   border: 0;
+  line-height: 1.5;
 }
