@@ -46,3 +46,10 @@ ul a {
   color: #fff;
   text-decoration: none;
 }
+
+fieldset {
+  display: flex;
+  flex-flow: column;
+  border: 0;
+  padding: 0;
+}
