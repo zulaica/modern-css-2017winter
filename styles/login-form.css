@@ -24,6 +24,7 @@ body {
 
 main {
   background: #fff;
+  padding: 2rem;
 }
 
 h1  {
@@ -37,11 +38,12 @@ ul {
   padding: 0;
   display: flex;
   justify-content: space-around;
+  margin: 2rem auto;
 }
 
 ul a {
   display: block;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   background: #5cb85c;
   color: #fff;
   text-decoration: none;
@@ -61,4 +63,10 @@ fieldset {
 
 input {
   font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+button {
+  margin-left: 2rem;
 }
