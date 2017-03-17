@@ -48,10 +48,33 @@ dd {
 dd a {
   display: block;
   padding: .5rem 1rem;
-  background: #337ab7;
+  background: linear-gradient(
+    to right,
+    #337ab7 0%,
+    #337ab7 50%,
+    #286090 50%,
+    #286090 100%
+  );
+  background-size: 200%;
+  background-position: 100%;
   color: #fff;
   text-decoration: none;
   text-align: center;
+  transition: .25s ease-out;
+}
+
+a,
+input,
+button {
+  outline: none;
+}
+
+dd a:hover,
+dd a:active,
+dd a:focus {
+  transition: .125s ease-in;
+  background-position: 0%;
+  box-shadow: 0 4px 4px -4px #666;
 }
 
 label,
@@ -75,14 +98,43 @@ input {
   padding: .5rem 1rem;
   line-height: 1.5;
   width: 100%;
+  border: 0;
+  border-bottom: 2px solid #286090;
+  transition: .25s ease-out;
+}
+
+input:hover,
+input:active,
+input:focus {
+  transition: .125s ease-in;
+  border-color: #337ab7;
+  box-shadow: 0 4px 4px -4px #666;
 }
 
 button {
   font-size: 1rem;
   padding: .5rem 1rem;
   margin-left: 2rem;
-  background: #5cb85c;
+  background: linear-gradient(
+    to right,
+    #5cb85c 0%,
+    #5cb85c 50%,
+    #449d44 50%,
+    #449d44 100%
+  );
+  background-size: 200%;
+  background-position: 100%;
   color: #fff;
   border: 0;
+  cursor: pointer;
   line-height: 1.5;
+  transition: .25s ease-out;
+}
+
+button:hover,
+button:active,
+button:focus {
+  transition: .125s ease-in;
+  background-position: 0%;
+  box-shadow: 0 4px 4px -4px #666;
 }
