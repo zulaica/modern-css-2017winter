@@ -138,3 +138,22 @@ button:focus {
   background-position: 0%;
   box-shadow: 0 4px 4px -4px #666;
 }
+
+form a {
+  text-decoration: none;
+  color: #286090;
+  border-bottom: 1px dashed #286090;
+  cursor: help;
+  transition: .25s ease-out;
+  display: inline-block;
+  padding: .25rem auto;
+}
+
+form a:hover,
+form a:active,
+form a:focus {
+  transition: .125s ease-in;
+  color: #337ab7;
+  border-bottom: 1px dashed #337ab7;
+  box-shadow: 0 4px 4px -4px #337ab7;
+}
